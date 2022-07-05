@@ -16,7 +16,9 @@ function SearchBar({ searchPageShow, searchPageSet }) {
           </div>
         </div>
         <div className="search-books-results">
-          <ol className="books-grid"></ol>
+          <ol className="books-grid">
+            <li>Test</li>
+          </ol>
         </div>
       </div>
     );
