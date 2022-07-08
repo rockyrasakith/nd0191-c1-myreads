@@ -1,7 +1,7 @@
 import React from "react";
 import SelectShelfTool from "./SelectShelfTool";
 
-function Book({ title, author, cover }) {
+function Book({ title, author, cover, status }) {
   return (
     <div className="book">
       <div className="book-top">
