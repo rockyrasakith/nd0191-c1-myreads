@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
-function SelectShelfTool() {
 
+function SelectShelfTool({ status }) {
   return (
     <div className="book-shelf-changer">
       <select>

@@ -23,9 +23,9 @@ function App() {
 
         {/* The Entire Array of BookShelves */}
         <ListShelves
-          searchPageShow={showSearchPage}
-          searchPageSet={setShowSearchpage}
-          data={allBooks}
+          // searchPageShow={showSearchPage}
+          // searchPageSet={setShowSearchpage}
+          // data={allBooks}
         />
       </div>
   );

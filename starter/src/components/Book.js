@@ -14,7 +14,7 @@ function Book({ title, author, cover, status }) {
               `url(${cover})`,
           }}
         ></div>
-        <SelectShelfTool />
+        <SelectShelfTool status={status}/>
       </div>
       <div className="book-title">{title}</div>
       <div className="book-authors">{author}</div>

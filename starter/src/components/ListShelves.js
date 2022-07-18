@@ -4,7 +4,7 @@ import BookShelf from "./BookShelf";
 import OpenSearch from "./OpenSearch";
 import BookContext from "./context/BookContext";
 
-function ListShelves({ searchPageSet, searchPageShow }) {
+function ListShelves() {
   const { books } = useContext(BookContext);
   return (
     <div className="list-books">
@@ -19,10 +19,7 @@ function ListShelves({ searchPageSet, searchPageShow }) {
           <BookShelf name="Read" data={books} />
         </div>
       </div>
-      <OpenSearch
-        searchPageSet={searchPageSet}
-        searchPageShow={searchPageShow}
-      />
+      <OpenSearch/>
     </div>
   );
 }
